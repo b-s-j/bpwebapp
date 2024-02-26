@@ -11,12 +11,10 @@
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
         <input type="hidden" asp-for="Id" />
         <div class="mb-3">
-            <label asp-for="Name" class="float-start"></label>
             <input asp-for="Name" class="form-control" disabled />
             <span asp-validation-for="Name" disabled class="text-warning"></span>
         </div>
         <div class="mb-3">
-            <label asp-for="DisplayOrder"></label>
             <input asp-for="DisplayOrder" class="form-control" disabled />
             <span asp-validation-for="DisplayOrder" disabled class="text-danger"></span>
         </div>
